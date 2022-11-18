@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews/BookReviews/BookReviewTests/BookReviewTests.csproj": {}
+    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj": {}
   },
   "projects": {
-    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews/BookReviews/BookReviews/BookReviews.csproj": {
+    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews/BookReviews/BookReviews/BookReviews.csproj",
+        "projectUniqueName": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj",
         "projectName": "BookReviews",
-        "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews/BookReviews/BookReviews/BookReviews.csproj",
+        "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj",
         "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews/BookReviews/BookReviews/obj/",
+        "outputPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -20,15 +20,15 @@
           "/Users/admin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -39,30 +39,20 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.30, )"
+              "version": "[6.0.11, )"
             },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
-              "version": "[3.1.30, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[3.1.30, )"
-            },
-            "Microsoft.EntityFrameworkCore.Sqlite": {
-              "target": "Package",
-              "version": "[3.1.30, )"
+              "version": "[6.0.11, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[3.2.7, )"
+              "version": "[6.0.2, )"
             }
           },
           "imports": [
@@ -88,14 +78,14 @@
         }
       }
     },
-    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews/BookReviews/BookReviewTests/BookReviewTests.csproj": {
+    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews/BookReviews/BookReviewTests/BookReviewTests.csproj",
+        "projectUniqueName": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
         "projectName": "BookReviewTests",
-        "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews/BookReviews/BookReviewTests/BookReviewTests.csproj",
+        "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
         "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews/BookReviews/BookReviewTests/obj/",
+        "outputPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -104,18 +94,18 @@
           "/Users/admin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net6.0"
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "/Volumes/DataCard/Repos/CS295N-Example-BookReviews/BookReviews/BookReviews/BookReviews.csproj": {
-                "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews/BookReviews/BookReviews/BookReviews.csproj"
+              "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj": {
+                "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj"
               }
             }
           }
@@ -127,8 +117,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
