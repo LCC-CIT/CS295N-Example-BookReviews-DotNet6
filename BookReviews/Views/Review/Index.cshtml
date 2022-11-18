@@ -1,0 +1,25 @@
+﻿@model Review
+@{
+    ViewData["Title"] = "Reviews";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Reviews</h1>
+    <p>
+        All the reviews users have posted.<br />
+        ... coming soon.
+    </p>
+    @if(@Model != null)
+    {
+        <p>
+            <h2>The Last Review Posted</h2>
+            Book Title: @Model.Book.BookTitle<br />
+            Author: @Model.Book.AuthorName<br />
+            Review: @Model.ReviewText<br />
+            Reviewer: @Model.Reviewer.UserName<br />
+            Review date: @Model.ReviewDate.ToShortDateString()
+         </p>
+    }
+    <a href="/Review/Review">Add a Review</a><br />
+    <a href="/Home">Home</a>
+</div>
