@@ -1,6 +1,4 @@
 ﻿using BookReviews.Models;
-using System.Linq;
-using System;
 using Microsoft.EntityFrameworkCore;
 
 namespace BookReviews.Data
