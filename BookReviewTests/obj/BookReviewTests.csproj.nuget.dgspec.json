@@ -1,29 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj": {}
+    "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj": {}
   },
   "projects": {
-    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj": {
+    "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj",
+        "projectUniqueName": "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj",
         "projectName": "BookReviews",
-        "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj",
-        "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/obj/",
+        "projectPath": "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj",
+        "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/Users/admin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,10 +45,6 @@
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[6.0.11, )"
-            },
-            "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[6.0.11, )"
             },
@@ -74,38 +72,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj": {
+    "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
+        "projectUniqueName": "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj",
         "projectName": "BookReviewTests",
-        "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
-        "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/obj/",
+        "projectPath": "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj",
+        "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/Users/admin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj": {
-                "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj"
+              "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj": {
+                "projectPath": "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj"
               }
             }
           }
@@ -157,7 +157,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
