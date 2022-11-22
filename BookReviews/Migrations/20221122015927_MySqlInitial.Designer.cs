@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BookReviews.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20221118032923_MySqlInitial")]
+    [Migration("20221122015927_MySqlInitial")]
     partial class MySqlInitial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -60,7 +60,6 @@ namespace BookReviews.Migrations
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("Publisher")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("BookId");
