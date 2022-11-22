@@ -1,12 +1,15 @@
 ﻿using BookReviews.Data;
 using BookReviews.Models;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace BookReviewTests
 {
     public class FakeReviewRepository : IReviewRepository
     {
         private List<Review> reviews = new List<Review>();
+
+        IQueryable<Review> IReviewRepository.Reviews => throw new System.NotImplementedException();
 
         public Review GetReviewById(int id)
         {
@@ -27,5 +30,14 @@ namespace BookReviewTests
             return status;
         }
 
+        Review IReviewRepository.GetReviewById(int id)
+        {
+            throw new System.NotImplementedException();
+        }
+
+        int IReviewRepository.StoreReview(Review model)
+        {
+            throw new System.NotImplementedException();
+        }
     }
 }
