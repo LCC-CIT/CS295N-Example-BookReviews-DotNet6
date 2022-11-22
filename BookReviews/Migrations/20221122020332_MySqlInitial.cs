@@ -40,7 +40,7 @@ namespace BookReviews.Migrations
                     AuthorName = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Isbn = table.Column<int>(type: "int", nullable: false),
-                    Publisher = table.Column<string>(type: "longtext", nullable: false)
+                    Publisher = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     PubDate = table.Column<DateTime>(type: "datetime(6)", nullable: false)
                 },

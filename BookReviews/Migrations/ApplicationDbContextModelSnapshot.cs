@@ -58,7 +58,6 @@ namespace BookReviews.Migrations
                         .HasColumnType("datetime(6)");
 
                     b.Property<string>("Publisher")
-                        .IsRequired()
                         .HasColumnType("longtext");
 
                     b.HasKey("BookId");
