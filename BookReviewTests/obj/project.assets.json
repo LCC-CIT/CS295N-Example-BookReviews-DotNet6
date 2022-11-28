@@ -6169,39 +6169,37 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Brian\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "/Users/admin/.nuget/packages/": {},
+    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj",
+      "projectUniqueName": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
       "projectName": "BookReviewTests",
-      "projectPath": "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj",
-      "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\obj\\",
+      "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
+      "packagesPath": "/Users/admin/.nuget/packages/",
+      "outputPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "/Users/admin/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj": {
-              "projectPath": "C:\\Users\\Brian\\Source\\repos\\LCC-CIT\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj"
+            "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj": {
+              "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj"
             }
           }
         }
@@ -6253,7 +6251,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
