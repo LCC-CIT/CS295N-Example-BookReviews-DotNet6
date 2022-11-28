@@ -1,7 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using BookReviews.Data;
 using BookReviews;
-using System;
 
 var builder = WebApplication.CreateBuilder(args);
 
