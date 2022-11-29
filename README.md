@@ -9,3 +9,7 @@
  - 7-RepositoryAndUnitTests  
   The repository pattern is implemented to facilitate unit testing of controller methods.  
   A ReviewRepository was added and the ReviewController was refactored to use it. A FakeReviewRepository was added and unit tests were written that use it.
+- 8A-SeedData  
+  Code to seed the database with some initial book reviews was added.
+- 8B-LinqFiltering  
+  Added code to filter reviews by book title or reviewer.
