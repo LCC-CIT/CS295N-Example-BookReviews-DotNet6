@@ -1,13 +1,22 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿#undef SQLITE // use SQLite if this is #define, use MySQL if it's #undef
+
+using Microsoft.EntityFrameworkCore;
 using BookReviews.Data;
 using BookReviews;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+#if SQLITE
+var connectionString = builder.Configuration.GetConnectionString("SqliteConnection");
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlite(connectionString));
+#else
 var connectionString = builder.Configuration.GetConnectionString("MySqlConnection");
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));
+#endif
+
 builder.Services.AddTransient<IReviewRepository, ReviewRepository>();
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 builder.Services.AddControllersWithViews();

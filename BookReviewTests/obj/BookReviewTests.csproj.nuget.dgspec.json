@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj": {}
+    "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj": {}
   },
   "projects": {
-    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj": {
+    "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj",
+        "projectUniqueName": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj",
         "projectName": "BookReviews",
-        "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj",
-        "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/obj/",
+        "projectPath": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj",
+        "packagesPath": "/Users/birdb/.nuget/packages/",
+        "outputPath": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviews/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/admin/.nuget/NuGet/NuGet.Config"
+          "/Users/birdb/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -56,6 +56,10 @@
               "target": "Package",
               "version": "[6.0.11, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[6.0.11, )"
+            },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
               "version": "[6.0.2, )"
@@ -84,20 +88,20 @@
         }
       }
     },
-    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj": {
+    "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
+        "projectUniqueName": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
         "projectName": "BookReviewTests",
-        "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
-        "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/obj/",
+        "projectPath": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
+        "packagesPath": "/Users/birdb/.nuget/packages/",
+        "outputPath": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviewTests/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/admin/.nuget/NuGet/NuGet.Config"
+          "/Users/birdb/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -110,8 +114,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj": {
-                "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj"
+              "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj": {
+                "projectPath": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj"
               }
             }
           }
