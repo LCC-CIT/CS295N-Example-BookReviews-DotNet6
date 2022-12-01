@@ -1,4 +1,4 @@
-﻿#undef SQLITE // use SQLite if this is #define, use MySQL if it's #undef
+﻿#define SQLITE // use SQLite if this is defined using #define, use MySQL if it's #undef
 
 using Microsoft.EntityFrameworkCore;
 using BookReviews.Data;

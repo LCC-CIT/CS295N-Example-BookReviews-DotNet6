@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj": {}
+    "D:\\Repos\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj": {}
   },
   "projects": {
-    "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj": {
+    "D:\\Repos\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj",
+        "projectUniqueName": "D:\\Repos\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj",
         "projectName": "BookReviews",
-        "projectPath": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj",
+        "projectPath": "D:\\Repos\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj",
         "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\obj\\",
+        "outputPath": "D:\\Repos\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -58,7 +58,7 @@
               "target": "Package",
               "version": "[6.0.11, )"
             },
-            "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[6.0.11, )"
             },
@@ -90,14 +90,14 @@
         }
       }
     },
-    "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj": {
+    "D:\\Repos\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj",
+        "projectUniqueName": "D:\\Repos\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj",
         "projectName": "BookReviewTests",
-        "projectPath": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj",
+        "projectPath": "D:\\Repos\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj",
         "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
-        "outputPath": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\obj\\",
+        "outputPath": "D:\\Repos\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -118,8 +118,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj": {
-                "projectPath": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj"
+              "D:\\Repos\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj": {
+                "projectPath": "D:\\Repos\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj"
               }
             }
           }
