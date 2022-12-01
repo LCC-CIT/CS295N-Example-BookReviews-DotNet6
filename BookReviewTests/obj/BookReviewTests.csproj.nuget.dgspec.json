@@ -1,29 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj": {}
+    "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj": {}
   },
   "projects": {
-    "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj": {
+    "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj",
+        "projectUniqueName": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj",
         "projectName": "BookReviews",
-        "projectPath": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj",
-        "packagesPath": "/Users/birdb/.nuget/packages/",
-        "outputPath": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviews/obj/",
+        "projectPath": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj",
+        "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/Users/birdb/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,38 +86,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj": {
+    "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
+        "projectUniqueName": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj",
         "projectName": "BookReviewTests",
-        "projectPath": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
-        "packagesPath": "/Users/birdb/.nuget/packages/",
-        "outputPath": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviewTests/obj/",
+        "projectPath": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\BookReviewTests.csproj",
+        "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviewTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/Users/birdb/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj": {
-                "projectPath": "/Users/birdb/Projects/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj"
+              "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj": {
+                "projectPath": "D:\\Repos\\CS295N-2022F-StudentLabs\\CS295N-Example-BookReviews-DotNet6\\BookReviews\\BookReviews.csproj"
               }
             }
           }
@@ -167,7 +171,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
