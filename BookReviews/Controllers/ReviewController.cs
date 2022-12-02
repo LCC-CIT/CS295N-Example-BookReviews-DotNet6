@@ -16,25 +16,35 @@ namespace BookReviews.Controllers
             repo = r;
         }
 
-        public IActionResult Index(string ReviewerName, string BookTitle)
+        public IActionResult Index(String reviewerName, String bookTitle, String reviewDate)
         {
             List<Review> reviews;
 
-            // ReviewerName is not null
-            if (ReviewerName != null)
+            // reviewerName is not null
+            if (reviewerName != null)
             {
                 reviews = (
                     from r in repo.Reviews
-                    where r.Reviewer.UserName == ReviewerName
+                    where r.Reviewer.UserName == reviewerName
                     select r
                     ).ToList<Review>();
             }
-            // BookTitle is not null
-            else if (BookTitle != null)
+            // bookTitle is not null
+            else if (bookTitle != null)
             {
                 reviews = (
                     from r in repo.Reviews
-                    where r.Book.BookTitle == BookTitle
+                    where r.Book.BookTitle == bookTitle
+                    select r
+                    ).ToList<Review>();
+            }
+            // reviewDate is not null
+            else if (reviewDate != null)
+            {
+                var date = DateOnly.Parse(reviewDate);
+                reviews = (
+                    from r in repo.Reviews
+                    where DateOnly.FromDateTime(r.ReviewDate) == date
                     select r
                     ).ToList<Review>();
             }
