@@ -41,10 +41,9 @@ namespace BookReviews.Controllers
             // reviewDate is not null
             else if (reviewDate != null)
             {
-                var date = DateOnly.Parse(reviewDate);
                 reviews = (
                     from r in repo.Reviews
-                    where DateOnly.FromDateTime(r.ReviewDate) == date
+                    where r.ReviewDate.Date == DateTime.Parse(reviewDate).Date
                     select r
                     ).ToList<Review>();
             }
