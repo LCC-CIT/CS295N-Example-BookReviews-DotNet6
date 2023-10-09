@@ -643,14 +643,6 @@
           "System.Security.Principal.Windows": "4.5.0"
         }
       },
-      "MySqlConnector/0.69.10": {
-        "runtime": {
-          "lib/netcoreapp3.0/MySqlConnector.dll": {
-            "assemblyVersion": "0.69.10.0",
-            "fileVersion": "0.69.10.0"
-          }
-        }
-      },
       "NETStandard.Library/1.6.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -715,31 +707,6 @@
           }
         }
       },
-      "Pomelo.EntityFrameworkCore.MySql/3.2.7": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.30",
-          "MySqlConnector": "0.69.10",
-          "Pomelo.JsonObject": "2.2.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Pomelo.EntityFrameworkCore.MySql.dll": {
-            "assemblyVersion": "3.2.7.0",
-            "fileVersion": "3.2.7.0"
-          }
-        }
-      },
-      "Pomelo.JsonObject/2.2.1": {
-        "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
-          "Newtonsoft.Json": "13.0.1"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Pomelo.JsonObject.dll": {
-            "assemblyVersion": "2.2.1.0",
-            "fileVersion": "2.2.1.0"
-          }
-        }
-      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -800,7 +767,7 @@
           "runtimes/win-arm64/native/sni.dll": {
             "rid": "win-arm64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "4.6.25512.1"
           }
         }
       },
@@ -809,7 +776,7 @@
           "runtimes/win-x64/native/sni.dll": {
             "rid": "win-x64",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "4.6.25512.1"
           }
         }
       },
@@ -818,7 +785,7 @@
           "runtimes/win-x86/native/sni.dll": {
             "rid": "win-x86",
             "assetType": "native",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "4.6.25512.1"
           }
         }
       },
@@ -1772,7 +1739,7 @@
         "runtime": {
           "lib/netstandard2.0/xunit.abstractions.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "0.0.0.0"
+            "fileVersion": "2.0.0.0"
           }
         }
       },
@@ -1823,8 +1790,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.30",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.30",
-          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.30",
-          "Pomelo.EntityFrameworkCore.MySql": "3.2.7"
+          "Microsoft.EntityFrameworkCore.Sqlite": "3.1.30"
         },
         "runtime": {
           "BookReviews.dll": {}
@@ -2118,13 +2084,6 @@
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
     },
-    "MySqlConnector/0.69.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-flikhWc6q1gZE4l1PujXLnoZxthf/DqKo43y8x5Cw7/iaivjVYAHHhlr3/t6i8GImi/dbxP4zntp5J/4EVFcbw==",
-      "path": "mysqlconnector/0.69.10",
-      "hashPath": "mysqlconnector.0.69.10.nupkg.sha512"
-    },
     "NETStandard.Library/1.6.1": {
       "type": "package",
       "serviceable": true,
@@ -2145,20 +2104,6 @@
       "sha512": "sha512-eaiXkUjC4NPcquGWzAGMXjuxvLwc6XGKMptSyOGQeT0X70BUZObuybJFZLA0OfTdueLd3US23NBPTBb6iF3V1Q==",
       "path": "nuget.frameworks/5.11.0",
       "hashPath": "nuget.frameworks.5.11.0.nupkg.sha512"
-    },
-    "Pomelo.EntityFrameworkCore.MySql/3.2.7": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-H3AxDVX+3owmmXtmjOiTZSM89ryCe+tPpDZU4MZh6W8UO4Y9dohLTEPTQTeq60wKYPwww/1yJiNtOrqYBRtvpw==",
-      "path": "pomelo.entityframeworkcore.mysql/3.2.7",
-      "hashPath": "pomelo.entityframeworkcore.mysql.3.2.7.nupkg.sha512"
-    },
-    "Pomelo.JsonObject/2.2.1": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-VHPk3Yf7nDt+tZMC1M4oAoc3bgTYsOrap3VTjn//vd91b/nfquAbAeq1k0Lf7mPt8J7imLd9Pbzm50uB5euuZA==",
-      "path": "pomelo.jsonobject/2.2.1",
-      "hashPath": "pomelo.jsonobject.2.2.1.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",

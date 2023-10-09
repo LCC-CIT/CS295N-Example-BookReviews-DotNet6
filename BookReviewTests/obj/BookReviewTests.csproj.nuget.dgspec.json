@@ -1,34 +1,36 @@
 {
   "format": 1,
   "restore": {
-    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj": {}
+    "D:\\Repos\\CS295N-Example-BookReviews\\BookReviews\\BookReviewTests\\BookReviewTests.csproj": {}
   },
   "projects": {
-    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj": {
+    "D:\\Repos\\CS295N-Example-BookReviews\\BookReviews\\BookReviews\\BookReviews.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj",
+        "projectUniqueName": "D:\\Repos\\CS295N-Example-BookReviews\\BookReviews\\BookReviews\\BookReviews.csproj",
         "projectName": "BookReviews",
-        "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj",
-        "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/obj/",
+        "projectPath": "D:\\Repos\\CS295N-Example-BookReviews\\BookReviews\\BookReviews\\BookReviews.csproj",
+        "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\CS295N-Example-BookReviews\\BookReviews\\BookReviews\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/Users/admin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -39,20 +41,26 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
-            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.11, )"
+              "version": "[3.1.30, )"
             },
-            "Microsoft.EntityFrameworkCore.Tools": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.11, )"
+              "version": "[3.1.30, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.30, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[6.0.2, )"
+              "version": "[3.2.7, )"
             }
           },
           "imports": [
@@ -74,38 +82,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj": {
+    "D:\\Repos\\CS295N-Example-BookReviews\\BookReviews\\BookReviewTests\\BookReviewTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
+        "projectUniqueName": "D:\\Repos\\CS295N-Example-BookReviews\\BookReviews\\BookReviewTests\\BookReviewTests.csproj",
         "projectName": "BookReviewTests",
-        "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/BookReviewTests.csproj",
-        "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviewTests/obj/",
+        "projectPath": "D:\\Repos\\CS295N-Example-BookReviews\\BookReviews\\BookReviewTests\\BookReviewTests.csproj",
+        "packagesPath": "C:\\Users\\Brian\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\CS295N-Example-BookReviews\\BookReviews\\BookReviewTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "/Users/admin/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj": {
-                "projectPath": "/Volumes/DataCard/Repos/CS295N-Example-BookReviews-DotNet6/BookReviews/BookReviews.csproj"
+              "D:\\Repos\\CS295N-Example-BookReviews\\BookReviews\\BookReviews\\BookReviews.csproj": {
+                "projectPath": "D:\\Repos\\CS295N-Example-BookReviews\\BookReviews\\BookReviews\\BookReviews.csproj"
               }
             }
           }
@@ -117,8 +127,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
@@ -157,7 +167,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
