@@ -1,5 +1,4 @@
 # CS295N-Example-BookReviews-DotNet6
-# CS295N-Example-BookReviews-DotNet6
 Book Review example from LCC-CIT/CS295N-Example-BookReviews migrated to ASP.NET 6.0 MVC
 The migration process is described in https://lcc-cit.github.io/CS295N-CourseMaterials/Notes/UpgradeMvcAppToDotNeT6.html
 
