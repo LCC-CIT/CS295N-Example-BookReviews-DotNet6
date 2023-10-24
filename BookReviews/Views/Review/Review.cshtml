@@ -1,18 +1,31 @@
 ﻿@model Review
+@{
+    ViewData["Title"] = "Review";
+}
 
-<h1 class="display-4">Add a Review</h1>
-<form method="post">
-    <label asp-for="Book.BookTitle">Title</label>
-    <input asp-for="Book.BookTitle" /><br />
-
-    <label asp-for="Book.AuthorName">Author</label>
-    <input asp-for="Book.AuthorName" /><br />
-
-    <label asp-for="Reviewer.UserName">Reviewer</label>
-    <input asp-for="Reviewer.UserName" /><br />
-
-    <label asp-for="ReviewText">Review</label>
-    <textarea asp-for="ReviewText"></textarea><br />
-
-    <button type="submit">Submit</button>
+<strong>Enter your Review</strong>
+<br/>
+<form method="post" class="container">
+    <div class="row p-2">
+        <label asp-for="Book.BookTitle" class="control-label col-md-1">Title</label>
+        <input asp-for="Book.BookTitle" class="form-control col-md-6">
+    </div>
+    <div class="row p-2">
+        <label asp-for="Book.AuthorName" class="control-label  col-md-1">Author</label>
+        <input asp-for="Book.AuthorName" class="form-control col-md-6">
+        <br>
+    </div>
+    <div class="row p-2">
+        <label asp-for="Reviewer.UserName" class="control-label  col-md-1">Reviewer</label>
+        <input asp-for="Reviewer.UserName" class="form-control col-md-6">
+        <br>
+    </div>
+    <div class="row p-2">
+        <label asp-for="ReviewText" class="control-label  col-md-1">Review</label>
+        <textarea asp-for="ReviewText" placeholder="Write your review here" class="form-control col-md-6"></textarea>
+        <br/>
+    </div>
+    <div class="row p-2">
+        <button type="submit" class="form-control btn btn-success col-2">Submit</button>
+    </div>
 </form>
