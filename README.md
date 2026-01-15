@@ -1,6 +1,5 @@
 # CS295N-Example-BookReviews-ASP.NEt-Core-MVC
 Book Review example from LCC-CIT/CS295N-Example-BookReviews migrated to ASP.NET 6.0 MVC and now being migrated to .NET 10 (winter 2026)
-The migration process is described in https://lcc-cit.github.io/CS295N-CourseMaterials/Notes/UpgradeMvcAppToDotNeT6.html
 
 This example uses MySQL for the database provider. This guide shows how to set up a MySQL database server on Azure: https://lcc-cit.github.io/CS295N-CourseMaterials/Notes/AzureMySqlSetupGuide.html
  
