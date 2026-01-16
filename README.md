@@ -3,7 +3,7 @@ Book Review example from LCC-CIT/CS295N-Example-BookReviews migrated to ASP.NET 
 
 This example uses MySQL for the database provider. This guide shows how to set up a MySQL database server on Azure: https://lcc-cit.github.io/CS295N-CourseMaterials/Notes/AzureMySqlSetupGuide.html
  
- ## Branchs
+ ## Branches
  - 3-Data  
    An imput form was added so a book reveiw can be entered by a user. It is just eched back to the Review page.
  - 4-Bootstrap
